@@ -12303,30 +12303,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arogers\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/andrewrogers/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arogers\\Desktop\\learn_dotnet\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Users\\arogers\\Desktop\\learn_dotnet\\ContosoUniversity\\ContosoUniversity.csproj",
-      "packagesPath": "C:\\Users\\arogers\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arogers\\Desktop\\learn_dotnet\\ContosoUniversity\\obj\\",
+      "projectPath": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/ContosoUniversity.csproj",
+      "packagesPath": "/Users/andrewrogers/.nuget/packages/",
+      "outputPath": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\arogers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/andrewrogers/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
