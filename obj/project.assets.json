@@ -12309,11 +12309,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/ContosoUniversity.csproj",
+      "projectUniqueName": "/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/ContosoUniversity.csproj",
+      "projectPath": "/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/ContosoUniversity.csproj",
       "packagesPath": "/Users/andrewrogers/.nuget/packages/",
-      "outputPath": "/Users/andrewrogers/Desktop/CodeLearning/dotnet/ContosoUniversity/obj/",
+      "outputPath": "/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

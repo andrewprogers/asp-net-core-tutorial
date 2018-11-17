@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace ContosoUniversity
 {
@@ -36,6 +37,10 @@ namespace ContosoUniversity
             services.AddEntityFrameworkNpgsql().AddDbContext<SchoolContext>(options => {
                 var connectionString = Configuration.GetConnectionString("School");
                 options.UseNpgsql(connectionString);
+            });
+
+            services.AddLogging(loggingBuilder => {
+                loggingBuilder.AddConsole();
             });
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

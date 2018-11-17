@@ -40,5 +40,29 @@
             <li>Scaffolded a controller for students using Visual Studio</li>
         </ul>
 
+        <b>Scaffold modifications</b>
+        <ul>
+            <li>Update the details page for students to include enrollemnts, this was done by using an Include and ThenInclude methods on the query in the controller</li>
+            <li>Update the create method to not bind the ID property. Also wrapped the update actions to catch DbUpdateExceptions</li>
+            <li>Update the edit method to use the read-and-update method, where the cooresponding object is read from the DB and the method TryUpdateModelAsync is used to update</li>
+            <li>Updated the delete method to show an error if delete failed</li>
+        </ul>
+
+        <b>Data manipulation</b>
+        <ul>
+            <li>Added sorting, searching and paging to index page</li>
+            <li>used query params to track state of the page</li>
+            <li>instantiated a new class to retrieve and model paginated results</li>
+            <li>added appropriate query params to the various hyperlinks on the page</li>
+            <li>Added some summary statistics to the about page represented by a new ViewModel</li>
+            <li>The controller action creates a query that groups data and then binds it into a list of objects</li>
+        </ul>
+        
+        <b>Added migration support</b>
+        <ul>
+            <li>created an initial migration with <code>dotnet ef migrations add</code></li>
+            <li>applied changes to the database with <code>dotnet ef datbase update</code></li>
+        </ul>
+
     </div>
 </div>

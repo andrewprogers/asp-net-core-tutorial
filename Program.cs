@@ -26,7 +26,7 @@ namespace ContosoUniversity
                 }
                 catch (Exception ex)
                 {
-                    var logger = scope.ServiceProvider.GetRequiredService<ILogger>();
+                    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
                     logger.LogError(ex, "An error occurred while seeding the database");
                 }
             }
