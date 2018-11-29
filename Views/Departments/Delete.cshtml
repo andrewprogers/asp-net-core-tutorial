@@ -1,0 +1,36 @@
+@model Department
+
+@{
+    ViewData["Title"] = "Details - Department";
+}
+
+<h2>Details</h2>
+
+<p class="text-danger">@ViewData["ConcurrencyErrorMessage"]</p>
+
+<h4>Department</h4>
+
+<hr />
+<dl>
+    <dt>Name</dt>
+    <dd>@Model.Name</dd>
+
+    <dt>Budget</dt>
+    <dd>@Model.Budget</dd>
+
+    <dt>Start Date</dt>
+    <dd>@Model.StartDate.ToShortDateString()</dd>
+
+    <dt>Administrator</dt>
+    <dd>@Model.Administrator.FullName</dd>
+</dl>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="DepartmentID" />
+    <input type="hidden" asp-for="xmin" />
+    
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+</form>
+<hr />

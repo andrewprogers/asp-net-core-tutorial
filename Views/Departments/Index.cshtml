@@ -1,0 +1,41 @@
+@model List<Department>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Departments</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>Budget</th>
+        <th>Start Date</th>
+        <th>Administrator</th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.Name</td>
+                <td>$@department.Budget</td>
+                <td>@Html.DisplayFor(mi => @department.StartDate)</td>
+                <td>
+                    <a asp-controller="Instructors" asp-action="Details" asp-route-id="@department.Administrator.ID">
+                        @department.Administrator.FullName
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@department.DepartmentID">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@department.DepartmentID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@department.DepartmentID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

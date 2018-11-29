@@ -1,0 +1,28 @@
+@model Department
+
+@{
+    ViewData["Title"] = "Details - Department";
+}
+
+<h2>Details</h2>
+
+<h4>Department</h4>
+
+<hr />
+<dl>
+    <dt>Name</dt>
+    <dd>@Model.Name</dd>
+
+    <dt>Budget</dt>
+    <dd>@Model.Budget</dd>
+
+    <dt>Start Date</dt>
+    <dd>@Model.StartDate.ToShortDateString()</dd>
+
+    <dt>Administrator</dt>
+    <dd>@Model.Administrator.FullName</dd>
+</dl>
+<a asp-action="Edit" asp-route-id="@Model.DepartmentID">Edit</a> |
+<a asp-action="Delete" asp-route-id="@Model.DepartmentID">Delete</a>
+<hr />
+<a asp-action="Index">Back to Departments</a>

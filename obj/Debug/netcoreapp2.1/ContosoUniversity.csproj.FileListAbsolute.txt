@@ -160,3 +160,9 @@ C:/Users/arogers/Desktop/learn_dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/
 /Users/andrewrogers/Desktop/dotnet/ContosoUniversity/bin/Debug/netcoreapp2.1/ContosoUniversity.Views.pdb
 /Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/ContosoUniversity.Views.pdb
 /Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/ContosoUniversity.csproj.CopyComplete
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Instructors/Create.g.cshtml.cs
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Departments/Index.g.cshtml.cs
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Departments/Create.g.cshtml.cs
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Departments/Details.g.cshtml.cs
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Departments/Edit.g.cshtml.cs
+/Users/andrewrogers/Desktop/dotnet/ContosoUniversity/obj/Debug/netcoreapp2.1/Razor/Views/Departments/Delete.g.cshtml.cs
